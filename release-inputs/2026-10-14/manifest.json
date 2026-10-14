@@ -1,0 +1,103 @@
+{
+  "tag": "client-2026.10.14",
+  "components": {
+    "Windows Viewer": "0.4.1",
+    "Linux Viewer": "0.4.2-rc.2 (0.4.1 also available)",
+    "C++ SDK": "0.4.1",
+    "Python SDK": "0.4.2-rc.3; CPython3.7–3.12"
+  },
+  "scope": {
+    "release_kind": "curated customer download milestone; component versions unchanged",
+    "python_native_matrix": "12 OS/Python combinations passed",
+    "physical_test": "Linux Python3.7.16, Nori camera, RTX3070; 10 frames each at640x480 and1280x720",
+    "windows_new_python_sdk_physical_test": false,
+    "rtx3060_new_machine_qualification": false
+  },
+  "files": [
+    {
+      "name": "SYNNOVER-AI3D-0.4.1-SDK-Linux.tar.gz",
+      "size": 39865114,
+      "sha256": "d718d0057d5fc4865dc0a6e2c50c8c7d60539a5e8709e1f5d4acd6e3df44078f"
+    },
+    {
+      "name": "SYNNOVER-AI3D-0.4.1-SDK-Windows.zip",
+      "size": 39924717,
+      "sha256": "55c17f956b3651197aa8e91c09e73bece87da37d7962122d5202430f1c28b79c"
+    },
+    {
+      "name": "SYNNOVER-AI3D-0.4.1-Windows-Setup.exe",
+      "size": 6417032,
+      "sha256": "1bd8530f94ed76b87026c89e6a91c13fb80fb6e28ee18c76ab75c3705578ada4"
+    },
+    {
+      "name": "SYNNOVER-AI3D-0.4.1-x86_64.AppImage",
+      "size": 11426296,
+      "sha256": "0d88c416438fcc9cf1e2f15521dfadea71a328def78dec035a90d5588a547bb2"
+    },
+    {
+      "name": "SYNNOVER-AI3D-0.4.2-rc.2-x86_64.AppImage",
+      "size": 11467256,
+      "sha256": "544f4e84dfd3e5a827db987a9cecd2f6c1f0f6a611a9afab2a0339f35519532e"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp310-cp310-manylinux_2_35_x86_64.whl",
+      "size": 2333822,
+      "sha256": "f16c2a2855bf8d8e1f111d7c301fb60c7112e873da4d39b64984ae1e66a74b97"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp310-cp310-win_amd64.whl",
+      "size": 2660778,
+      "sha256": "37b3a903961dec2f40ab8514904c2f12340d191003d964bb5604612963f5d0fb"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp311-cp311-manylinux_2_35_x86_64.whl",
+      "size": 2335165,
+      "sha256": "eb64bab1f0596b9433e0097c985cb0c2fc1a53781071a5c8d78af6b4569df119"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp311-cp311-win_amd64.whl",
+      "size": 2661476,
+      "sha256": "9c9702c55e56db320630e93ee82d21d26f4bf60ceb9e67ecbecd1ab24561de6f"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp312-cp312-manylinux_2_35_x86_64.whl",
+      "size": 2333246,
+      "sha256": "9f3184a71b53091578ccfb6df0dfdb5a1a880c96e453e0b3c32385bafe9ae101"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp312-cp312-win_amd64.whl",
+      "size": 2662801,
+      "sha256": "a8ee7791f1368b243a564be2fab5f78ab449ff7568b40da5fe4e01494dd65b1d"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp37-cp37m-manylinux_2_35_x86_64.whl",
+      "size": 2336400,
+      "sha256": "3ae495f22d1597cf4a8b1298d7f2c4545332bbb6486a53539444f7e90d3f2cf7"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp37-cp37m-win_amd64.whl",
+      "size": 2678474,
+      "sha256": "831086e1a20e5f448eb9fdb84ab876f60ac72e372f005d482dba218f94f1b976"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp38-cp38-manylinux_2_35_x86_64.whl",
+      "size": 2333546,
+      "sha256": "2334e8510eb7d0cdf0d18ad15fc147aec95173f3f4b188663c86f769411e2d51"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp38-cp38-win_amd64.whl",
+      "size": 2671534,
+      "sha256": "110308610cedd106ebf8ac4636a68de71cf7d9267458d29e8e8c611e7b5cec6c"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp39-cp39-manylinux_2_35_x86_64.whl",
+      "size": 2333956,
+      "sha256": "9b86922318875ea0e68477047a24dd0048bf0c888a58351c1ec8992bdaec4f98"
+    },
+    {
+      "name": "synnover_ai3d-0.4.2rc3-cp39-cp39-win_amd64.whl",
+      "size": 2667595,
+      "sha256": "960ecc68793fe559bd115d058756b8c56a5c98043f4c10563838fe843e6e6b18"
+    }
+  ]
+}

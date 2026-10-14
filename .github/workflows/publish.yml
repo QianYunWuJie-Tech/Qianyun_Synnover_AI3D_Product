@@ -1,0 +1,22 @@
+name: Publish reviewed customer milestone
+on:
+  push:
+    tags: ['client-*']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: customer-release-20261014
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - name: Validate, publish and download every asset for SHA256 verification
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/publish.py

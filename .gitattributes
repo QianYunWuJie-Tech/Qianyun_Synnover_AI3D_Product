@@ -1,0 +1,2 @@
+release-inputs/**/assets/* filter=lfs diff=lfs merge=lfs -text
+release-inputs/**/docs/*.html filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,170 @@
+[
+  {
+    "state": "passed",
+    "passed": true,
+    "python": "3.7.17 (default, Jun 23 2023, 13:13:52) \n[GCC 11.3.0]",
+    "platform": "linux",
+    "simulated": true,
+    "scope": "installed repaired CPU SDK; no camera or GPU qualification",
+    "numpy": "1.21.6",
+    "sdk_version": "0.4.2rc3",
+    "checks": {
+      "sdk_version": "0.4.2rc3",
+      "simulated": true,
+      "invalid_arguments_and_stopped_read": true,
+      "rgb_bgr_disparity_distance_save_info_resolution_orientation": true,
+      "formats_nan_sampling_ownership_and_device_shutdown": true,
+      "shutdown_after_failed_open": true,
+      "explicit_reopen_can_select_a_different_device": true,
+      "passed": true
+    },
+    "wheel": "synnover_ai3d-0.4.2rc3-cp37-cp37m-manylinux_2_35_x86_64.whl",
+    "workflow_run_id": "38416867949",
+    "workflow_run_attempt": "1",
+    "workflow_url": "https://github.com/Yiveen/qianyun_ai3d_camera_product/actions/runs/38416867949",
+    "built_files_sha256": {
+      "numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "a6be4cb0ef3b8c9250c19cc122267263093eee7edd4e3fa75395dfda8c17a8e2",
+      "synnover_ai3d-0.4.2rc3-cp37-cp37m-manylinux_2_35_x86_64.whl": "3ae495f22d1597cf4a8b1298d7f2c4545332bbb6486a53539444f7e90d3f2cf7"
+    }
+  },
+  {
+    "state": "passed",
+    "passed": true,
+    "python": "3.8.18 (default, Dec 12 2024, 19:15:02) \n[GCC 11.4.0]",
+    "platform": "linux",
+    "simulated": true,
+    "scope": "installed repaired CPU SDK; no camera or GPU qualification",
+    "numpy": "1.24.4",
+    "sdk_version": "0.4.2rc3",
+    "checks": {
+      "sdk_version": "0.4.2rc3",
+      "simulated": true,
+      "invalid_arguments_and_stopped_read": true,
+      "rgb_bgr_disparity_distance_save_info_resolution_orientation": true,
+      "formats_nan_sampling_ownership_and_device_shutdown": true,
+      "shutdown_after_failed_open": true,
+      "explicit_reopen_can_select_a_different_device": true,
+      "passed": true
+    },
+    "wheel": "synnover_ai3d-0.4.2rc3-cp38-cp38-manylinux_2_35_x86_64.whl",
+    "workflow_run_id": "38416867949",
+    "workflow_run_attempt": "1",
+    "workflow_url": "https://github.com/Yiveen/qianyun_ai3d_camera_product/actions/runs/38416867949",
+    "built_files_sha256": {
+      "numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "dd80e219fd4c71fc3699fc1dadac5dcf4fd882bfc6f7ec53d30fa197b8ee22dc",
+      "synnover_ai3d-0.4.2rc3-cp38-cp38-manylinux_2_35_x86_64.whl": "2334e8510eb7d0cdf0d18ad15fc147aec95173f3f4b188663c86f769411e2d51"
+    }
+  },
+  {
+    "state": "passed",
+    "passed": true,
+    "python": "3.9.25 (main, Nov  3 2025, 15:14:54) \n[GCC 11.4.0]",
+    "platform": "linux",
+    "simulated": true,
+    "scope": "installed repaired CPU SDK; no camera or GPU qualification",
+    "numpy": "1.26.4",
+    "sdk_version": "0.4.2rc3",
+    "checks": {
+      "sdk_version": "0.4.2rc3",
+      "simulated": true,
+      "invalid_arguments_and_stopped_read": true,
+      "rgb_bgr_disparity_distance_save_info_resolution_orientation": true,
+      "formats_nan_sampling_ownership_and_device_shutdown": true,
+      "shutdown_after_failed_open": true,
+      "explicit_reopen_can_select_a_different_device": true,
+      "passed": true
+    },
+    "wheel": "synnover_ai3d-0.4.2rc3-cp39-cp39-manylinux_2_35_x86_64.whl",
+    "workflow_run_id": "38416867949",
+    "workflow_run_attempt": "1",
+    "workflow_url": "https://github.com/Yiveen/qianyun_ai3d_camera_product/actions/runs/38416867949",
+    "built_files_sha256": {
+      "numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3",
+      "synnover_ai3d-0.4.2rc3-cp39-cp39-manylinux_2_35_x86_64.whl": "9b86922318875ea0e68477047a24dd0048bf0c888a58351c1ec8992bdaec4f98"
+    }
+  },
+  {
+    "state": "passed",
+    "passed": true,
+    "python": "3.10.22 (main, Oct  1 2026, 14:31:30) [GCC 11.4.0]",
+    "platform": "linux",
+    "simulated": true,
+    "scope": "installed repaired CPU SDK; no camera or GPU qualification",
+    "numpy": "1.26.4",
+    "sdk_version": "0.4.2rc3",
+    "checks": {
+      "sdk_version": "0.4.2rc3",
+      "simulated": true,
+      "invalid_arguments_and_stopped_read": true,
+      "rgb_bgr_disparity_distance_save_info_resolution_orientation": true,
+      "formats_nan_sampling_ownership_and_device_shutdown": true,
+      "shutdown_after_failed_open": true,
+      "explicit_reopen_can_select_a_different_device": true,
+      "passed": true
+    },
+    "wheel": "synnover_ai3d-0.4.2rc3-cp310-cp310-manylinux_2_35_x86_64.whl",
+    "workflow_run_id": "38416867949",
+    "workflow_run_attempt": "1",
+    "workflow_url": "https://github.com/Yiveen/qianyun_ai3d_camera_product/actions/runs/38416867949",
+    "built_files_sha256": {
+      "numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f",
+      "synnover_ai3d-0.4.2rc3-cp310-cp310-manylinux_2_35_x86_64.whl": "f16c2a2855bf8d8e1f111d7c301fb60c7112e873da4d39b64984ae1e66a74b97"
+    }
+  },
+  {
+    "state": "passed",
+    "passed": true,
+    "python": "3.11.17 (main, Oct  1 2026, 14:34:26) [GCC 11.4.0]",
+    "platform": "linux",
+    "simulated": true,
+    "scope": "installed repaired CPU SDK; no camera or GPU qualification",
+    "numpy": "1.26.4",
+    "sdk_version": "0.4.2rc3",
+    "checks": {
+      "sdk_version": "0.4.2rc3",
+      "simulated": true,
+      "invalid_arguments_and_stopped_read": true,
+      "rgb_bgr_disparity_distance_save_info_resolution_orientation": true,
+      "formats_nan_sampling_ownership_and_device_shutdown": true,
+      "shutdown_after_failed_open": true,
+      "explicit_reopen_can_select_a_different_device": true,
+      "passed": true
+    },
+    "wheel": "synnover_ai3d-0.4.2rc3-cp311-cp311-manylinux_2_35_x86_64.whl",
+    "workflow_run_id": "38416867949",
+    "workflow_run_attempt": "1",
+    "workflow_url": "https://github.com/Yiveen/qianyun_ai3d_camera_product/actions/runs/38416867949",
+    "built_files_sha256": {
+      "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5",
+      "synnover_ai3d-0.4.2rc3-cp311-cp311-manylinux_2_35_x86_64.whl": "eb64bab1f0596b9433e0097c985cb0c2fc1a53781071a5c8d78af6b4569df119"
+    }
+  },
+  {
+    "state": "passed",
+    "passed": true,
+    "python": "3.12.15 (main, Oct  1 2026, 02:36:35) [GCC 11.4.0]",
+    "platform": "linux",
+    "simulated": true,
+    "scope": "installed repaired CPU SDK; no camera or GPU qualification",
+    "numpy": "1.26.4",
+    "sdk_version": "0.4.2rc3",
+    "checks": {
+      "sdk_version": "0.4.2rc3",
+      "simulated": true,
+      "invalid_arguments_and_stopped_read": true,
+      "rgb_bgr_disparity_distance_save_info_resolution_orientation": true,
+      "formats_nan_sampling_ownership_and_device_shutdown": true,
+      "shutdown_after_failed_open": true,
+      "explicit_reopen_can_select_a_different_device": true,
+      "passed": true
+    },
+    "wheel": "synnover_ai3d-0.4.2rc3-cp312-cp312-manylinux_2_35_x86_64.whl",
+    "workflow_run_id": "38416867949",
+    "workflow_run_attempt": "1",
+    "workflow_url": "https://github.com/Yiveen/qianyun_ai3d_camera_product/actions/runs/38416867949",
+    "built_files_sha256": {
+      "numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed",
+      "synnover_ai3d-0.4.2rc3-cp312-cp312-manylinux_2_35_x86_64.whl": "9f3184a71b53091578ccfb6df0dfdb5a1a880c96e453e0b3c32385bafe9ae101"
+    }
+  }
+]

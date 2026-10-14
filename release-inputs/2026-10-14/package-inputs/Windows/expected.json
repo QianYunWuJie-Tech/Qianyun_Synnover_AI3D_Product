@@ -1,0 +1,17 @@
+{
+  "sha256": "32b5ccb837c19213464773c46c2afdb78d09c50615eb65486a4aa46e4ec60d20",
+  "wheel_hashes": {
+    "numpy-1.21.6-cp37-cp37m-win_amd64.whl": "bcb238c9c96c00d3085b264e5c1a1207672577b93fa666c3b14a45240b14123a",
+    "synnover_ai3d-0.4.2rc3-cp37-cp37m-win_amd64.whl": "831086e1a20e5f448eb9fdb84ab876f60ac72e372f005d482dba218f94f1b976",
+    "numpy-1.24.4-cp38-cp38-win_amd64.whl": "692f2e0f55794943c5bfff12b3f56f99af76f902fc47487bdfe97856de51a706",
+    "synnover_ai3d-0.4.2rc3-cp38-cp38-win_amd64.whl": "110308610cedd106ebf8ac4636a68de71cf7d9267458d29e8e8c611e7b5cec6c",
+    "numpy-1.26.4-cp39-cp39-win_amd64.whl": "3373d5d70a5fe74a2c1bb6d2cfd9609ecf686d47a2d7b1d37a8f3b6bf6003aea",
+    "synnover_ai3d-0.4.2rc3-cp39-cp39-win_amd64.whl": "960ecc68793fe559bd115d058756b8c56a5c98043f4c10563838fe843e6e6b18",
+    "numpy-1.26.4-cp310-cp310-win_amd64.whl": "b97fe8060236edf3662adfc2c633f56a08ae30560c56310562cb4f95500022d5",
+    "synnover_ai3d-0.4.2rc3-cp310-cp310-win_amd64.whl": "37b3a903961dec2f40ab8514904c2f12340d191003d964bb5604612963f5d0fb",
+    "numpy-1.26.4-cp311-cp311-win_amd64.whl": "cd25bcecc4974d09257ffcd1f098ee778f7834c3ad767fe5db785be9a4aa9cb2",
+    "synnover_ai3d-0.4.2rc3-cp311-cp311-win_amd64.whl": "9c9702c55e56db320630e93ee82d21d26f4bf60ceb9e67ecbecd1ab24561de6f",
+    "numpy-1.26.4-cp312-cp312-win_amd64.whl": "08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818",
+    "synnover_ai3d-0.4.2rc3-cp312-cp312-win_amd64.whl": "a8ee7791f1368b243a564be2fab5f78ab449ff7568b40da5fe4e01494dd65b1d"
+  }
+}
