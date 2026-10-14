@@ -1,22 +1,22 @@
-name: Publish reviewed customer milestone
+name: Publish SYNNOVER AI3D downloads
 on:
   push:
-    tags: ['client-*']
+    tags: ['v0.4.3']
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  group: customer-release-20261014
+  group: customer-release-043
   cancel-in-progress: false
 jobs:
   publish:
     runs-on: ubuntu-22.04
     timeout-minutes: 35
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           lfs: true
-      - name: Validate, publish and download every asset for SHA256 verification
+      - name: Publish and verify downloads
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 tools/publish.py

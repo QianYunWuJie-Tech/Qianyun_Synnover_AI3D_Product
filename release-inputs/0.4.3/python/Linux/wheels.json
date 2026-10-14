@@ -1,0 +1,15 @@
+{
+  "numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "a6be4cb0ef3b8c9250c19cc122267263093eee7edd4e3fa75395dfda8c17a8e2",
+  "synnover_ai3d-0.4.3-cp37-cp37m-manylinux_2_35_x86_64.whl": "bdc3baa78a6cd27707f4f898a32dbadf61cc963e54e9eb6379f86c8e3a9c6302",
+  "numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "dd80e219fd4c71fc3699fc1dadac5dcf4fd882bfc6f7ec53d30fa197b8ee22dc",
+  "synnover_ai3d-0.4.3-cp38-cp38-manylinux_2_35_x86_64.whl": "f432f588eff12676e9c9c521e714c4dfd83a4664f4a70c5bad739afa68dd55f4",
+  "numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3",
+  "synnover_ai3d-0.4.3-cp39-cp39-manylinux_2_35_x86_64.whl": "785b8a18963d1e547c5f1df240ab8e060c5b6a7cc31395369d8ca6f19070dc2b",
+  "numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f",
+  "synnover_ai3d-0.4.3-cp310-cp310-manylinux_2_35_x86_64.whl": "4e8cd01950d0af4e1a5c06f6ba48c46622469651f6453e4254c2d3d576397545",
+  "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5",
+  "synnover_ai3d-0.4.3-cp311-cp311-manylinux_2_35_x86_64.whl": "179d007ec4ca9b0d4400c12b37948e0698adaefcd7d33e01f98b0600b56f3eaf",
+  "numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed",
+  "synnover_ai3d-0.4.3-cp312-cp312-manylinux_2_35_x86_64.whl": "9b2dd67815e890238a0decd94b3255c8cf68b0b753838328c7f2bd117d35647c",
+  "pip-24.0-py3-none-any.whl": "ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc"
+}
