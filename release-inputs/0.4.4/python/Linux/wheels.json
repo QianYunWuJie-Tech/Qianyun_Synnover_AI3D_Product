@@ -1,0 +1,15 @@
+{
+  "numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "a6be4cb0ef3b8c9250c19cc122267263093eee7edd4e3fa75395dfda8c17a8e2",
+  "numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "dd80e219fd4c71fc3699fc1dadac5dcf4fd882bfc6f7ec53d30fa197b8ee22dc",
+  "numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "ffa75af20b44f8dba823498024771d5ac50620e6915abac414251bd971b4529f",
+  "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5",
+  "numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed",
+  "numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3",
+  "pip-24.0-py3-none-any.whl": "ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc",
+  "synnover_ai3d-0.4.4-cp310-cp310-manylinux_2_35_x86_64.whl": "8dbffb8a68310b817a7575bf06ec8cecb29c6cae14ea9a02f810cdd022c8c060",
+  "synnover_ai3d-0.4.4-cp311-cp311-manylinux_2_35_x86_64.whl": "1d90daab825a46bf5a10fc4a009c064bfeda20d9df33c5ce79589cbeb9067387",
+  "synnover_ai3d-0.4.4-cp312-cp312-manylinux_2_35_x86_64.whl": "a88c86cd18be830a58d33744a0b7e69d446bcfbf753a95b59a1df84ca4c9f495",
+  "synnover_ai3d-0.4.4-cp37-cp37m-manylinux_2_35_x86_64.whl": "4edc90827cd84b2557b61b04df76dfa887045c057df93648136b047bd200cd42",
+  "synnover_ai3d-0.4.4-cp38-cp38-manylinux_2_35_x86_64.whl": "88c25ef4a8eacd18b37b3f3eadee76991e42e968ccee8a0cf10466372aff4855",
+  "synnover_ai3d-0.4.4-cp39-cp39-manylinux_2_35_x86_64.whl": "4cb4ef502233acf4f39314b6a00ed05816c3a727f030e60dae9aecfeb3f10bb7"
+}

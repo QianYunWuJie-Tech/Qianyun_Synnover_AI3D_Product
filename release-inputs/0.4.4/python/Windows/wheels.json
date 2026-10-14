@@ -1,0 +1,15 @@
+{
+  "numpy-1.21.6-cp37-cp37m-win_amd64.whl": "bcb238c9c96c00d3085b264e5c1a1207672577b93fa666c3b14a45240b14123a",
+  "numpy-1.24.4-cp38-cp38-win_amd64.whl": "692f2e0f55794943c5bfff12b3f56f99af76f902fc47487bdfe97856de51a706",
+  "numpy-1.26.4-cp310-cp310-win_amd64.whl": "b97fe8060236edf3662adfc2c633f56a08ae30560c56310562cb4f95500022d5",
+  "numpy-1.26.4-cp311-cp311-win_amd64.whl": "cd25bcecc4974d09257ffcd1f098ee778f7834c3ad767fe5db785be9a4aa9cb2",
+  "numpy-1.26.4-cp312-cp312-win_amd64.whl": "08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818",
+  "numpy-1.26.4-cp39-cp39-win_amd64.whl": "3373d5d70a5fe74a2c1bb6d2cfd9609ecf686d47a2d7b1d37a8f3b6bf6003aea",
+  "pip-24.0-py3-none-any.whl": "ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc",
+  "synnover_ai3d-0.4.4-cp310-cp310-win_amd64.whl": "35e45d55de1e26d798c6e52a1ff60cc797011ed36deb19a36b0f5f4ec36035b2",
+  "synnover_ai3d-0.4.4-cp311-cp311-win_amd64.whl": "9fe0dd04fb48bba5cc06791d50ddafbba6b08d8bb8434c6d0dd19d848d5e694c",
+  "synnover_ai3d-0.4.4-cp312-cp312-win_amd64.whl": "23106b2681ce4a4416787ed7cb74b6656923729e397fc9029cf45b9459ea7a08",
+  "synnover_ai3d-0.4.4-cp37-cp37m-win_amd64.whl": "9ee595ac585be434e6c43bfef27d492ad0754aca2bf4956b37a335c269baabf0",
+  "synnover_ai3d-0.4.4-cp38-cp38-win_amd64.whl": "b5b925aabc0c9cb7951664f161b79c0f862edd96cfec234584357bd02b4e18fb",
+  "synnover_ai3d-0.4.4-cp39-cp39-win_amd64.whl": "d6f20de89019c5a7ecba0e38d967426fe51ede33985a407a53d2ba43db70a335"
+}

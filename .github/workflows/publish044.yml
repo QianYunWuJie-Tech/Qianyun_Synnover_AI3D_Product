@@ -1,0 +1,55 @@
+name: Publish verified SYNNOVER AI3D 0.4.4
+on:
+  push:
+    branches: ['main']
+    paths: ['tools/publish044.py', 'tools/windows044.py', 'tools/verify_installer.py', '.github/workflows/publish044.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: customer-release-044
+  cancel-in-progress: false
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          lfs: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Package and verify native Windows customer files
+        env:
+          PYTHONUTF8: '1'
+        run: python tools/windows044.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: windows044-final
+          path: ${{ runner.temp }}/windows044-output/*
+          if-no-files-found: error
+          retention-days: 7
+  publish:
+    needs: windows
+    runs-on: ubuntu-22.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          lfs: true
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: windows044-final
+          path: ${{ runner.temp }}/windows044-output
+      - name: Create release and verify every download
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/publish044.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: publication044-verification
+          path: ${{ runner.temp }}/release044/publication-verification.json
+          if-no-files-found: ignore
+          retention-days: 30

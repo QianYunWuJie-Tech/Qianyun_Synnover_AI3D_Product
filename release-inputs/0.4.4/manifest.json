@@ -1,0 +1,101 @@
+{
+  "version": "0.4.4",
+  "files": [
+    {
+      "name": "SYNNOVER-AI3D-0.4.4-CPP-SDK-Linux.tar.gz",
+      "size": 324659,
+      "sha256": "a468588189d0fd7a1db9e3ba7cef698f1a8effaa659fdb1cc5258fc8be087788"
+    },
+    {
+      "name": "SYNNOVER-AI3D-0.4.4-x86_64.AppImage",
+      "size": 56629752,
+      "sha256": "97f2d792a4a5b52e89641a70ee19d7f255658a6751ee3fbff23b2ced5d305ad1"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp310-cp310-manylinux_2_35_x86_64.whl",
+      "size": 2358424,
+      "sha256": "8dbffb8a68310b817a7575bf06ec8cecb29c6cae14ea9a02f810cdd022c8c060"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp310-cp310-win_amd64.whl",
+      "size": 2679707,
+      "sha256": "35e45d55de1e26d798c6e52a1ff60cc797011ed36deb19a36b0f5f4ec36035b2"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp311-cp311-manylinux_2_35_x86_64.whl",
+      "size": 2359882,
+      "sha256": "1d90daab825a46bf5a10fc4a009c064bfeda20d9df33c5ce79589cbeb9067387"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp311-cp311-win_amd64.whl",
+      "size": 2680112,
+      "sha256": "9fe0dd04fb48bba5cc06791d50ddafbba6b08d8bb8434c6d0dd19d848d5e694c"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp312-cp312-manylinux_2_35_x86_64.whl",
+      "size": 2358142,
+      "sha256": "a88c86cd18be830a58d33744a0b7e69d446bcfbf753a95b59a1df84ca4c9f495"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp312-cp312-win_amd64.whl",
+      "size": 2682017,
+      "sha256": "23106b2681ce4a4416787ed7cb74b6656923729e397fc9029cf45b9459ea7a08"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp37-cp37m-manylinux_2_35_x86_64.whl",
+      "size": 2362810,
+      "sha256": "4edc90827cd84b2557b61b04df76dfa887045c057df93648136b047bd200cd42"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp37-cp37m-win_amd64.whl",
+      "size": 2697567,
+      "sha256": "9ee595ac585be434e6c43bfef27d492ad0754aca2bf4956b37a335c269baabf0"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp38-cp38-manylinux_2_35_x86_64.whl",
+      "size": 2358366,
+      "sha256": "88c25ef4a8eacd18b37b3f3eadee76991e42e968ccee8a0cf10466372aff4855"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp38-cp38-win_amd64.whl",
+      "size": 2690327,
+      "sha256": "b5b925aabc0c9cb7951664f161b79c0f862edd96cfec234584357bd02b4e18fb"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp39-cp39-manylinux_2_35_x86_64.whl",
+      "size": 2358649,
+      "sha256": "4cb4ef502233acf4f39314b6a00ed05816c3a727f030e60dae9aecfeb3f10bb7"
+    },
+    {
+      "name": "synnover_ai3d-0.4.4-cp39-cp39-win_amd64.whl",
+      "size": 2688472,
+      "sha256": "d6f20de89019c5a7ecba0e38d967426fe51ede33985a407a53d2ba43db70a335"
+    }
+  ],
+  "documents": [
+    {
+      "name": "SYNNOVER-AI3D-CPP-SDK-Reference.html",
+      "size": 39342,
+      "sha256": "0352eb3f10e9d1a8d78739cf53fd569bdbca257abdfa23715c6016989cfc463f"
+    },
+    {
+      "name": "SYNNOVER-AI3D-Customer-Manual.html",
+      "size": 60219835,
+      "sha256": "bacf8a4103f046be91f684569a7cfa3473e3e64253ad37165f982e7622c65fb9"
+    },
+    {
+      "name": "SYNNOVER-AI3D-Python-SDK-Reference.html",
+      "size": 38238,
+      "sha256": "760ccde36ce4f079532e709a74b36c498f64a621db176aaed4618687f7dd838a"
+    }
+  ],
+  "python_packages": {
+    "SYNNOVER-AI3D-0.4.4-Python-SDK-Linux.zip": "b47826d6dc359f3d10ef9abb94658ca5e80f30d60cf8846ac63c2190a6634de1",
+    "SYNNOVER-AI3D-0.4.4-Python-SDK-Windows.zip": "c8ff1dd31141e1f9024dde7654d0666a65f681e7fa56242597925f84b880a089"
+  },
+  "qualified_windows": {
+    "run": "38575656168",
+    "source_commit": "b81f526",
+    "portable_sha256": "98cf0a70bc9ce598af3d8926abacdb587897fed91e1407244a53517354441c3e"
+  }
+}
