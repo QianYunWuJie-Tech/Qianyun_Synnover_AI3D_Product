@@ -2,6 +2,8 @@ name: Publish SYNNOVER AI3D downloads
 on:
   push:
     tags: ['v0.4.3']
+    branches: ['main']
+    paths: ['tools/publish.py', '.github/workflows/publish.yml']
   workflow_dispatch:
 permissions:
   contents: write

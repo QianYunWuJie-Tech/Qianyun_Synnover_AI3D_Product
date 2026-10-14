@@ -2,14 +2,14 @@
   "version": "0.4.3",
   "files": [
     {
-      "name": "SYNNOVER-AI3D-0.4.3-SDK-Linux.tar.gz",
-      "size": 46230318,
-      "sha256": "d5e19f62bb09d99292167535a48eb83a77f3deb36a802adedf6e831892608fef"
+      "name": "SYNNOVER-AI3D-0.4.3-CPP-SDK-Linux.tar.gz",
+      "size": 857958,
+      "sha256": "c9ffa5360e395d52a430f2c28f143b400be96285750155a7070d3154e73fbd38"
     },
     {
-      "name": "SYNNOVER-AI3D-0.4.3-SDK-Windows.zip",
-      "size": 50186788,
-      "sha256": "1aa466a5a9c7f361d3eeb92309fc80c1d33fd3172e1256e2b382414c8dda8ff4"
+      "name": "SYNNOVER-AI3D-0.4.3-CPP-SDK-Windows.zip",
+      "size": 3465282,
+      "sha256": "87ffd3a8957d5052c99d53ddf1627e52e2d0d59a38ac3fa441f9db1edc960927"
     },
     {
       "name": "SYNNOVER-AI3D-0.4.3-Windows-Setup.exe",
@@ -90,13 +90,17 @@
     },
     {
       "name": "SYNNOVER-AI3D-Customer-Manual.html",
-      "size": 3593089,
-      "sha256": "7533b2210d1beab30fec30f54a7dcaad12a4614f14a8d2eb00a707e952a27788"
+      "size": 3599621,
+      "sha256": "8299d09c0d495a29ccd5b1faebdfb1a2a484b21dbbd33bffb8e07837823dbb59"
     },
     {
       "name": "SYNNOVER-AI3D-Python-SDK-Reference.html",
       "size": 36192,
       "sha256": "88b92d05c08d3713cfe90492336a2b086be2821bfea14ae7fa346a449907447e"
     }
-  ]
+  ],
+  "python_packages": {
+    "SYNNOVER-AI3D-0.4.3-Python-SDK-Linux.zip": "3072aa9824ac30f6fb068bf5072849e585925daaf0d23d0945981ea8c0e8223c",
+    "SYNNOVER-AI3D-0.4.3-Python-SDK-Windows.zip": "35be5119a8e470cb9ec0c59f25862813ed3a285297317680850fd27b98d0433b"
+  }
 }

@@ -4,8 +4,8 @@
 
 | 系统 | Viewer | Python SDK | C++ SDK |
 |---|---|---|---|
-| Windows 10/11 x64 | [下载安装包](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-Windows-Setup.exe) | [下载完整包](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-Python-SDK-Windows.zip) | [下载 SDK](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-SDK-Windows.zip) |
-| Ubuntu 22.04 / 24.04 x86-64 | [下载安装包](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-x86_64.AppImage) | [下载完整包](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-Python-SDK-Linux.zip) | [下载 SDK](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-SDK-Linux.tar.gz) |
+| Windows 10/11 x64 | [下载安装包](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-Windows-Setup.exe) | [下载完整包](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-Python-SDK-Windows.zip) | [下载 SDK](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-CPP-SDK-Windows.zip) |
+| Ubuntu 22.04 / 24.04 x86-64 | [下载安装包](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-x86_64.AppImage) | [下载完整包](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-Python-SDK-Linux.zip) | [下载 SDK](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/download/v0.4.3/SYNNOVER-AI3D-0.4.3-CPP-SDK-Linux.tar.gz) |
 
 Python SDK 支持 64 位 CPython 3.7–3.12，完整包包含匹配的 NumPy，可离线安装。
 
