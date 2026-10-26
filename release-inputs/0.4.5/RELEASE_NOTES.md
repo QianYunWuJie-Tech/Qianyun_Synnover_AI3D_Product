@@ -9,6 +9,6 @@ Viewer 0.4.5 增加设备日志下载：在“授权、升级与日志”中选�
 
 本次只更新 Viewer，Python/C++ SDK 继续使用 [0.4.4](https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/tag/v0.4.4)。既有模型、标定和客户数据不随 Viewer 安装包更换。0.4.4 Release 保留供回退。
 
-验收：Ubuntu 已在 RTX 客户桌面及外部电脑实测日志导出和相机出流；Windows 发布前须通过原生构建、安装／升级／卸载、模拟源 2D／3D 与认证日志下载检查。Windows CI 不替代客户 Windows 10/11 实机相机验收。
+验收：Ubuntu 已在 RTX 客户桌面及外部电脑实测日志导出和相机出流；Windows 版在厂商 Ubuntu 电脑使用 MinGW 本地编译，已在 Wine 11 完成从 0.4.4 升级、重装、目录迁移、文件占用拒绝、卸载保留客户文件，以及模拟源 2D／3D、同步保存和认证日志下载测试。此版尚未在原生 Windows 10/11 实机验证 UAC、网络防火墙恢复及真实相机；Wine 结果不作为这些项目的通过证据。
 
 下载后可使用 SHA256SUMS 校验文件。

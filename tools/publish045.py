@@ -34,7 +34,7 @@ def api(path, method='GET', value=None, raw=False, missing=False):
         raise RuntimeError('GitHub API operation failed: '+method+' '+path.split('?')[0]+' HTTP '+str(e.code)) from None
     return body if raw else json.loads(body) if body else None
 manifest=json.loads((INPUT/'manifest.json').read_text())
-assert manifest['version']=='0.4.5' and manifest['windows_native_passed'] and manifest['diagnostics_transport_passed']
+assert manifest['version']=='0.4.5' and manifest['windows_local_build_passed'] and manifest['windows_wine_tests_passed'] and manifest['diagnostics_transport_passed']
 expected={'SYNNOVER-AI3D-0.4.5-Windows-Setup.exe','SYNNOVER-AI3D-0.4.5-Windows-Portable.zip','SYNNOVER-AI3D-0.4.5-x86_64.AppImage','SYNNOVER-AI3D-0.4.5-Manual.html'}
 assert set(manifest['files'])==expected
 assets=[]

@@ -1,0 +1,64 @@
+{
+  "version": "0.4.5",
+  "files": {
+    "SYNNOVER-AI3D-0.4.5-Windows-Portable.zip": {
+      "size": 51668816,
+      "sha256": "0371520e80e1987ddeb027d36b9dcde08846eff420776bd62f5d40ca0d507b97"
+    },
+    "SYNNOVER-AI3D-0.4.5-Manual.html": {
+      "size": 60222488,
+      "sha256": "3d6d9852048d9ec4b5971ea59d4abb9580de2752c7a0daa75cd77a2694fbd83a"
+    },
+    "SYNNOVER-AI3D-0.4.5-Windows-Setup.exe": {
+      "size": 51794910,
+      "sha256": "0413553bfb7ef8c8dee52fc9296b46a48e5971f5afc068eb6884b3a9a2e9a685"
+    },
+    "SYNNOVER-AI3D-0.4.5-x86_64.AppImage": {
+      "size": 56297976,
+      "sha256": "e71ea51ca7afa34245f99edc705d72d252d0030cd5242ccb66309e0f2636ab45"
+    }
+  },
+  "windows_local_build_passed": true,
+  "windows_wine_tests_passed": true,
+  "diagnostics_transport_passed": true,
+  "native_windows_verified": false,
+  "windows_build": "MinGW GCC 10.3.0, local Ubuntu vendor build",
+  "windows_test_environment": "Wine 11 on Ubuntu; synthetic camera service",
+  "windows_checks": {
+    "installer": [
+      "previous shipped installer upgrades in its registered Unicode/spaced path",
+      "same-version reinstall completes",
+      "changed install directory removes old application and preserves customer files",
+      "locked Viewer rejects upgrade without uninstalling old files",
+      "locked Viewer rejects ordinary uninstall without deleting registration",
+      "unregistered legacy package migrates without deleting customer files",
+      "failed old uninstall stops new installation and preserves old registration",
+      "32-bit registry migration waits for old-only file cleanup and removes obsolete registration",
+      "standard uninstall removes application and preserves customer files"
+    ],
+    "gui": [
+      "2d",
+      "3d",
+      "synchronized recordings"
+    ],
+    "tls": [
+      "enrolled mTLS download",
+      "CA and SPKI binding",
+      "device identity binding",
+      "untrusted client rejected",
+      "Unicode output directory",
+      "archive byte-for-byte readback",
+      "logs available with invalid license",
+      "failed requests create no archive"
+    ]
+  },
+  "linux_device_and_workstation_verified": true,
+  "sdk_version_unchanged": "0.4.4",
+  "local_maintenance_commit": "ffd4f7d",
+  "binary_source_commit": "04a83fa",
+  "remaining_native_windows_tests": [
+    "Windows 10/11 physical camera and desktop",
+    "UAC interaction",
+    "firewall rule restoration"
+  ]
+}

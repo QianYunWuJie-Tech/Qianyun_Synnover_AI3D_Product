@@ -1,16 +1,8 @@
 {
   "version": "0.4.5",
   "published": false,
-  "linux_built_and_device_verified": true,
-  "windows_build_pending": true,
-  "files": {
-    "SYNNOVER-AI3D-0.4.5-Manual.html": {
-      "size": 60222488,
-      "sha256": "3d6d9852048d9ec4b5971ea59d4abb9580de2752c7a0daa75cd77a2694fbd83a"
-    },
-    "SYNNOVER-AI3D-0.4.5-x86_64.AppImage": {
-      "size": 56297976,
-      "sha256": "e71ea51ca7afa34245f99edc705d72d252d0030cd5242ccb66309e0f2636ab45"
-    }
-  }
+  "ready_to_publish": true,
+  "windows_local_build_passed": true,
+  "windows_wine_tests_passed": true,
+  "native_windows_verified": false
 }
