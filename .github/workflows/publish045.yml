@@ -1,0 +1,30 @@
+name: Publish verified Viewer 0.4.5
+on:
+  push:
+    branches: ['main']
+    paths: ['tools/publish045.py', '.github/workflows/publish045.yml', 'release-inputs/0.4.5/manifest.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: customer-viewer-045
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          lfs: true
+      - name: Publish qualified assets and verify every download
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/publish045.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: publication045-verification
+          path: ${{ runner.temp }}/release045/publication-verification.json
+          if-no-files-found: ignore
+          retention-days: 30
