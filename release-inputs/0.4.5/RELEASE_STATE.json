@@ -1,8 +1,11 @@
 {
   "version": "0.4.5",
-  "published": false,
+  "published": true,
   "ready_to_publish": true,
   "windows_local_build_passed": true,
   "windows_wine_tests_passed": true,
-  "native_windows_verified": false
+  "native_windows_verified": false,
+  "release_url": "https://github.com/QianYunWuJie-Tech/Qianyun_Synnover_AI3D_Product/releases/tag/v0.4.5",
+  "publication_workflow_run": 40378765638,
+  "anonymous_downloads_sha256_verified": true
 }
